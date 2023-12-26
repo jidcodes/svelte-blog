@@ -6,9 +6,9 @@ import {schemaTypes} from './schemas'
 export default defineConfig({
   name: 'default',
   title: 'SSB Project',
-
   projectId: 'rrldfnto',
   dataset: 'production',
+  basePath: '/studio',
 
   plugins: [deskTool(), visionTool()],
 
